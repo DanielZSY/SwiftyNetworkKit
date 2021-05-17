@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - BFKit-Swift (6.0.1)
+  - CryptoSwift (1.4.0)
+  - GRDB.swift (5.8.0):
+    - GRDB.swift/standard (= 5.8.0)
+  - GRDB.swift/standard (5.8.0)
+  - HandyJSON (5.0.2)
+  - Kingfisher (6.3.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Result (5.0.0)
+  - SwiftDate (6.3.1)
+  - SwiftyLocalKit (0.0.5):
+    - BFKit-Swift
+    - CryptoSwift
+    - GRDB.swift
+    - HandyJSON
+    - Kingfisher
+    - SwiftDate
+  - SwiftyNetworkKit (0.0.2):
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - Moya
+    - Result
+    - SwiftyLocalKit
+
+DEPENDENCIES:
+  - SwiftyNetworkKit (from `../SwiftyNetworkKit.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - BFKit-Swift
+    - CryptoSwift
+    - GRDB.swift
+    - HandyJSON
+    - Kingfisher
+    - Moya
+    - Result
+    - SwiftDate
+    - SwiftyLocalKit
+
+EXTERNAL SOURCES:
+  SwiftyNetworkKit:
+    :path: "../SwiftyNetworkKit.podspec"
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  BFKit-Swift: a91367e548f995ef9804956e255912fdbf0d91a2
+  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  GRDB.swift: 9b9beec114435e1d852ad68c136cff4c71134627
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwiftyLocalKit: 929f115639298d1992bb76493fb7498fc2fb019f
+  SwiftyNetworkKit: 848820831404440d42bac67d73f816b9859570b0
+
+PODFILE CHECKSUM: cc7acdd5245fc79168a5f8264fe00a564f4fd0c6
+
+COCOAPODS: 1.10.1
