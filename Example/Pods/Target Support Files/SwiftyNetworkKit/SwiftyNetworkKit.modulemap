@@ -1,6 +1,0 @@
-framework module SwiftyNetworkKit {
-  umbrella header "SwiftyNetworkKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
